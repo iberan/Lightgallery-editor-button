@@ -7,7 +7,7 @@ Installation:
 
 1. Download Light Gallery (http://www.joompolitan.com/lightgallery.html) and install this plugin on your Joomla! 3.6.4 as usual
 
-2. Download files from here and copy them according to their directory structure
+2. Download files from here and copy them following to their directory structure
 
 3. Enable in Extensions / Plugins / types: editors-xtd / "Button - Image"
 
