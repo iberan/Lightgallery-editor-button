@@ -6,4 +6,4 @@ Joompolitan Light Gallery content plugin creates galleries from folders under /i
 
 If you're interesting in editor button, download files from here and copy them following to their directory structure. Enable in Extensions / Plugins / types: editors-xtd / "Button - Image". Open one of your articles in your editor and check the Image button popup window.
 
-Known issue: because of a "dirty hack" some core Joomla! files on, upgrading Joomla! you'll loose this function but you can rebuild it according to comments "by BI" in scripts.
+Known issue: because of a "dirty hack" some core Joomla! files on, upgrading Joomla! you'll loose this function. You may rebuild it according to comments "by BI" in scripts.
