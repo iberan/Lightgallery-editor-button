@@ -169,14 +169,14 @@ class plgContentLightGallery extends JPlugin
 		{
 /* by BI - first image only, with caption */
 
-			//$galleryText .= "<a href=\"".$v."\" data-lightbox=\"".$OptionArray['galleryName']."\" data-title=\"".$options[2]."\">"."<img src=\"".$v."\" style=\"margin: ".$margin."; width: ".$OptionArray['previewWidth']."px; height: ".$OptionArray['previewHeight']."px;\">"."</a>";
-
 if($k == 0) {
-			//$galleryText .= "<a style=\"float: left;display: block;\" href=\"".$v."\" data-lightbox=\"".$OptionArray['galleryName']."\" data-title=\"".$options[2]."\">"."<img src=\"".$v."\" style=\"margin: ".$margin." ".$margin." 0 ".$margin."; width: ".$OptionArray['previewWidth']."px; height: ".$OptionArray['previewHeight']."px;\"><br /><span style=\"font-size: 0.7rem;margin-left: ".$margin.";\">".$options[2]."</span></a>";
 
-			$galleryText .= "<a style=\"float: left;display: block;\" href=\"".$v."\" data-lightbox=\"".$OptionArray['galleryName']."\" data-title=\"".$options[2]."\">"."<figure><img src=\"".$v."\" style=\"margin: ".$margin." ".$margin." 0 ".$margin."; width: ".$OptionArray['previewWidth']."px; height: ".$OptionArray['previewHeight']."px;\"><figcaption style=\"font-size: 0.7rem;margin-left: ".$margin.";\">".$options[2]."</figcaption></figure>"."</a>";
+		$galleryText .= "<a style=\"float: left;display: block;\" href=\"".$v."\" data-lightbox=\"".$OptionArray['galleryName']."\" data-title=\"".$options[2]."\">"."<figure><img src=\"".$v."\" style=\"margin: ".$margin." ".$margin." 0 ".$margin."; width: ".$OptionArray['previewWidth']."px; height: ".$OptionArray['previewHeight']."px;\"><figcaption style=\"font-size: 0.7rem;margin-left: ".$margin.";\">".$options[2]."</figcaption></figure>"."</a>";
+
 } else {
-			$galleryText .= "<a style=\"display: none;\" href=\"".$v."\" data-lightbox=\"".$OptionArray['galleryName']."\" data-title=\"".$options[2]."\">"."<img src=\"".$v."\">"."</a>";
+
+		$galleryText .= "<a style=\"display: none;\" href=\"".$v."\" data-lightbox=\"".$OptionArray['galleryName']."\" data-title=\"".$options[2]."\">"."<img src=\"".$v."\">"."</a>";
+
 }			
 			}
 
