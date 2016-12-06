@@ -105,10 +105,9 @@ class plgContentLightGallery extends JPlugin
 
 		if(empty($OptionArray['galleryName']))
 		{
-/* by BI - Gallery Name */
-			//$OptionArray['galleryName'] = "Joompolitan Light Gallery";
-$config = JFactory::getConfig();
-			$OptionArray['galleryName'] = $config->get( 'sitename' );
+
+			$OptionArray['galleryName'] = "Joompolitan Light Gallery";
+
 		}
 
 		if(!empty($OptionArray['enabled']) && $OptionArray['enabled'] === "false")
