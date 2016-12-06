@@ -22,8 +22,7 @@ class plgContentLightGallery extends JPlugin
 		$app = JFactory::getApplication();
         // Plugin code goes here.
         // You can access parameters via $this->params.
-		
-		// expression to search for
+				// expression to search for
 		$regex = "#{lightgallery(.*?)}(.*?){/lightgallery}#s";
 
 		// find all instances of plugin and put in $matches
@@ -64,8 +63,6 @@ class plgContentLightGallery extends JPlugin
 			
 			$row->text .= $galleryJS;
 			
-/* by BI - hide adlink */
-/*
 			$anchorTextArray = array(
 				"<a style=\"font-size: 8px !important;text-decoration: none  !important; color: #E0E0E0  !important;\" href=\"http://www.joompolitan.com/lightgallery.html\" title\"Free Joomla Lightbox Gallery\">Free Joomla Lightbox Gallery</a>", 
 				"<a style=\"font-size: 8px !important;text-decoration: none  !important; color: #E0E0E0  !important;\" href=\"http://www.joompolitan.com/lightgallery.html\" title\"Free Lightbox Gallery\">Free Lightbox Gallery</a>",
@@ -74,7 +71,7 @@ class plgContentLightGallery extends JPlugin
 				"<a style=\"font-size: 8px !important;text-decoration: none  !important; color: #E0E0E0  !important;\" href=\"http://www.joompolitan.com/products.html\" title\"More Joomla Extensions\">More Joomla Extensions</a>");
 				
 			$row->text .= $anchorTextArray[$currentURL%5];
-*/
+
 		}
 		
 		return true;
